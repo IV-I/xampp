@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,6 @@
     <title>Sign Up</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="CSS/style.css" type="text/css">
-    <link rel="stylesheet" href="menu1.css" type="text/css">
     <style>
 
         .w3-container {
@@ -18,10 +18,8 @@
 <body>
 <?php
 
-
 require "headerloggedIn.php"
 ?>
-
 <main>
     <div class="welcome">
         <h3>SCHOOL OF COMPUTING SCIENCE AND DIGITAL MEDIA</h3>
@@ -31,13 +29,13 @@ require "headerloggedIn.php"
     </div>
     <div class="signupform">
         <div class="w3-card w3-margin w3-padding">
-            <h2 align="center">Sign Up</h2>
+            <h2 align="center">Log In</h2>
 
-            <form action="register.php" method="post" class="w3-container">
+            <form action="login.php" method="post" class="w3-container">
 
 
                 <label class="w3-inpt w3-text-black">User Name</label>
-                <input class="w3-input w3-border" type="text" name="username" placeholder="Student First & Last Name" required>
+                <input class="w3-input w3-border" type="text" name="username" placeholder="Student Name" required>
                 <br>
                 <label class="w3-inpt w3-text-black">Password</label>
                 <input class="w3-input w3-border" type="password" name="password" required>
@@ -52,18 +50,21 @@ require "headerloggedIn.php"
                     <option value="groupE">Group E</option>
                 </select>
                 <br>-->
-                <button type="submit" name="login_user">Sign Up</button>
+                <button type="submit" name="submit" value="login">Log In</button>
                 <p>Not a User? <a href="signup.php"><b>Sign Up</b></a></p>
 
 
 
             </form>
-            <div class="error"> </div>
+            <div class="error"><?php //echo $error;?><?php //echo $username; echo $password;?> </div>
         </div>
     </div>
 </main><br><br>
 <!-- End of main -->
 <!-- Footer -->
 <?php
-require "Footer.php";
+
+require ("Footer.php")
 ?>
+</body>
+</html>

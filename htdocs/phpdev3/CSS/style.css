@@ -1,0 +1,14 @@
+body{
+    background: url("../images/rgubanner1.jpg") scroll no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ebcccc;
+    overflow: hidden;
+}
+

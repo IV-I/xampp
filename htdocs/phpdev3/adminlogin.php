@@ -1,73 +1,24 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Admin Log In</title>
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link rel="stylesheet" href="CSS/style.css" type="text/css">
+            <style>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Sign Up</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="CSS/style.css" type="text/css">
-    <style>
-
-        .w3-container {
-            width: 500px;
-        }
+                .w3-container {
+                    width: 500px;
+                }
 
 
-    </style>
-</head>
+            </style>
+        </head>
 <body>
-<header>
-    <div id="campusmoodle">
-        <img src="images/campusmoodle.png">
-    </div>
-    <div>
-        <nav class="menu">
-            <ul>
-                <li id="a">
-                    <a href="#a">MY MOODLE</a>
-                    <div>
-                        <hr><strong>MyMoodle</strong><a href="#"></a>
-                        <hr><strong>My Profile</strong><a href="#"></a>
-                        <hr><strong>MyPortfolio</strong><a href="#"></a>
-                        <hr><strong>RGyoU Portal</strong><a href="#"></a>
+<?php
 
-                    </div>
-                </li>
-                <li id="b">
-                    <a href="#b">Library</a>
-                </li>
-
-                </li>
-                <li id="c">
-                    <a href="#c">Study Skills</a>
-                </li>
-                <li id="d">
-                    <a href="#d">Employability</a>
-                </li>
-                <li id="e">
-                    <a href="#e">Student Links</a>
-                    <div>
-                        <hr><strong>Student Help Desk</strong><a href="#"></a>
-
-                        <hr><strong>IT Helpdesk</strong><a href="#"></a>
-
-                        <hr><strong>ICRGU - RGU Ready</strong><a href="#"></a>
-
-                        <hr><strong>Your Assignment</strong><a href="#"></a>
-
-                        <hr><strong>Student Support</strong><a href="#"></a>
-
-                        <hr><strong>Student Representation & Partnership</strong><a href="#"></a>
-                        <hr><strong>RGU:Union</strong><a href="#"></a>
-                    </div>
-
-
-                </li>
-
-            </ul>
-        </nav>
-    </div>
-</header>
+require "headerloggedIn.php"
+?>
 <main>
     <div class="welcome">
         <h3>SCHOOL OF COMPUTING SCIENCE AND DIGITAL MEDIA</h3>
@@ -77,13 +28,13 @@
     </div>
     <div class="signupform">
         <div class="w3-card w3-margin w3-padding">
-            <h2 align="center">Log In</h2>
+            <h2 align="center">Admin Log In</h2>
 
-            <form action="login.php" method="post" class="w3-container">
+            <form action="admincheck.php" method="post" class="w3-container">
 
 
                 <label class="w3-inpt w3-text-black">User Name</label>
-                <input class="w3-input w3-border" type="text" name="username" placeholder="Student Name" required>
+                <input class="w3-input w3-border" type="text" name="username" placeholder="Admin's Name" required>
                 <br>
                 <label class="w3-inpt w3-text-black">Password</label>
                 <input class="w3-input w3-border" type="password" name="password" required>
@@ -98,7 +49,7 @@
                     <option value="groupE">Group E</option>
                 </select>
                 <br>-->
-                <button type="submit" name="submit" value="login">Log In</button>
+                <button type="submit" name="submit" value="login">Admin Log In</button>
                 <p>Not a User? <a href="signup.php"><b>Sign Up</b></a></p>
 
 
@@ -148,3 +99,9 @@ require ("Footer.php")
     </table>
 </footer>
 
+</title>
+</head>
+<body>
+
+</body>
+</html>
