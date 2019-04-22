@@ -7,15 +7,20 @@
         width: 1200px;
         margin-right: auto;
         margin-left: auto;
+        overflow: hidden;
     }
+    li{
+        margin-right: 2px;
+    }
+
 </style>
 
 }<footer class="footer">
     <table width="1200px">
         <tr>
             <td><img src="images/RgUblacklogo.jpg" alt=""></td>
-            <td><h4 style="text-align: center;color: white">STAY CONNECTED</h4></td>
-            <td><h4 style="text-align: center;color: white">CONTACT</h4></td>
+            <td><h5 style="text-align: center;color: white">STAY CONNECTED</h5></td>
+            <td><h5 style="text-align: center;color: white">CONTACT</h5></td>
         </tr>
         <tr>
             <td width="250px" style="text-align: center;color: whitesmoke"><a href="http://campusmoodle.rgu.ac.uk/public/policy/policy.html%22" style="color: whitesmoke">User Policy</a>  and <a href="http://campusmoodle.rgu.ac.uk/public/policy/policy.html" style="color: whitesmoke">Data Protection</a>

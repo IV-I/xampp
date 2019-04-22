@@ -67,9 +67,8 @@
 
                 </li>
                 <li id="c">
-                    <a href="https://www3.rgu.ac.uk/staff-and-current-students/library" target="_blank">Library</a>
+                    <a href="adminHomePage.php">Admin Home</a>
                 </li>
-
                 <li id="d">
                     <a href="#d">Project Groups</a>
                     <ul>
@@ -85,19 +84,18 @@
 
                     </ul>
                 </li>
-                </li>
                 <li id="e">
-                    <a href="#e">Student Links</a>
+                    <a href="#e">Assign Groups</a>
                     <ul>
-                        <li><strong>Student Help Desk</strong><a href="#"></a></li>
+                        <li><a href="assigngroupA.php">Assign Group A</a></li>
 
-                        <li><strong>IT Helpdesk</strong><a href="#"></a></li>
+                        <li><a href="assigngroupB.php">Assign Group B</a></li>
 
-                        <li><strong>ICRGU - RGU Ready</strong><a href="#"></a></li>
+                        <li><a href="assigngroupC.php">Assign Group c</a></li>
 
-                        <li><strong>Your Assignment</strong><a href="#"></a></li>
+                        <li><a href="assigngroupD.php">Assign Group D</a></li>
 
-                        <li><strong>Student Support</strong><a href="#"></a></li>
+                        <li><a href="assigngroupE.php">Assign Group E</a></li>
 
                     </ul>
 

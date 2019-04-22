@@ -24,6 +24,7 @@
 }
 .menu ul li ul li{
     display: none;
+    color: black;
 }
 .menu ul li:hover ul li{
     display: block;

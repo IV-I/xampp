@@ -19,7 +19,7 @@
 <?php
 
 
-require "headerloggedIn.php"
+require "HeaderLog.php"
 ?>
 
 <main>
@@ -53,7 +53,7 @@ require "headerloggedIn.php"
                 </select>
                 <br>-->
                 <button type="submit" name="login_user">Sign Up</button>
-                <p>Not a User? <a href="signup.php"><b>Sign Up</b></a></p>
+                <p>Already a User? <a href="loginform.php"><b>Sign Up</b></a></p>
 
 
 
